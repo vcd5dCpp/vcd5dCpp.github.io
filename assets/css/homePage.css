@@ -9,6 +9,6 @@
 .circleImage {
     border-radius: 50%;
     border-width: 13px;
-    border-color: turquoise;
-    border-style: solid;
+    border-color: red;
+    border-style: dotted;
 }
