@@ -8,3 +8,20 @@
     border-color: red;
     border-style: dotted;
 }
+
+#firstbox {
+    width: 200px;
+    height: 200px;
+    background-color: #D1ECFF;
+    border: dashed;
+    padding: 5px;
+   }
+   
+   #secondbox {
+       width: 200px;
+       height: 100px;
+       background-color: #ffffff;
+       border: ridge;
+       padding: 5px;
+       margin: 10px;
+   }
