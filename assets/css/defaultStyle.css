@@ -5,6 +5,25 @@
 }
 body {
     background-color: white;
-    background-image: url("../images/bg-images.jpg");
+    background-image: url("../images/huskies.jpg");
     background-size: cover;
+}
+
+
+#firstbox {
+    width: 200px;
+    height: 200px;
+    background: #D1ECFF;
+    border: dashed;
+    padding: 5px;
+}
+
+#secondbox {
+    width: 300px;
+    height: 200px;
+    background: pink;
+    border: ridge;
+    padding: 10px;
+    margin-top: 20px;
+    
 }
