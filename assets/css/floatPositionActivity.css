@@ -1,74 +1,72 @@
 /**
  * Float Layout Activity
  **/
-
- * {
+* {
     box-sizing: border-box;
-  }
+}
 
-  h1,
-  h2,
-  h3,
-  h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Roboto, sans-serif;
-  }
+}
 
-  body {
+body {
     font-size: 24px;
     line-height: 32px;
     color: #333;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto Slab", sans-serif;
     padding: 10px;
-  }
+}
 
-  section {
+section {
     margin-bottom: 20px;
-  }
+    clear: both;
+}
 
-  #sidebar {
+#sidebar {
     background: #eee;
     height: 300px;
     padding: 20px;
     width: 20%;
-    float:left;
-  }
+    float: left;
+}
 
-  #largeContent {
+#largeContent {
+    width: 80%;
     height: 300px;
     background-color: #6ea3da;
-    padding: 20px;
+    width:80%;
+    float:left;
     color: white;
-    float: left;
-    width: 80%;
-  }
+    padding: 20px;
+}
 
-  #left {
+#left {
     width: 30%;
     padding: 10px;
     height: 400px;
     color: #fff;
     background: #666;
-    float:left;
-  }
-  #middle {
+    float: left;
+}
+
+#middle {
     width: 30%;
-    height: 400px;
     padding: 10px;
     background: #888;
-    float:left;
-  }
-
-  #right {
-    background: #6edad5;
-    height: 400px;
-    padding: 10px 20px;
-    color: white;
-    width: 40%;
     float: left;
-  }
+}
 
-  footer {
+#right {
+    padding: 10px;
+    background: #666;
+    height: 400px;
+    color: white;
+}
+
+footer {
     padding: 10px;
     background: #ccc;
-    clear: both;
-  }
+}
