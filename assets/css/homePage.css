@@ -1,7 +1,7 @@
-
 #heading {
     color: turquoise;
 }
+
 .circleImage {
     border-radius: 50%;
     border-width: 13px;
@@ -15,13 +15,13 @@
     background-color: #D1ECFF;
     border: dashed;
     padding: 5px;
-   }
-   
-   #secondbox {
-       width: 200px;
-       height: 100px;
-       background-color: #ffffff;
-       border: ridge;
-       padding: 5px;
-       margin: 10px;
-   }
+}
+
+#secondbox {
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    border: ridge;
+    padding: 5px;
+    margin: 10px;
+}

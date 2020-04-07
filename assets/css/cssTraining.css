@@ -1,57 +1,62 @@
 .section {
     width: 80%;
-    display:block;
-    margin:0 auto;
-    outline:1px solid red;
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid red;
     margin-top: 15px;
-    height:200px;
+    height: 200px;
     background-color: gray;
     color: white;
-  }
-  .different {
+}
+
+.different {
     background-color: green;
-    outline:5px dashed blue;
-  }
-  
-  .bigger-size {
+    outline: 5px dashed blue;
+}
+
+.bigger-size {
     font-size: 30px;
     color: green;
-  }
-  
-  h5 {
+}
+
+h5 {
     color: red;
-  }
-  
-  .whiteText{
+}
+
+.whiteText {
     color: white;
-  }
-  
-  .blackText {
+}
+
+.blackText {
     color: black;
-  }
-  
-  .highlightText {
+}
+
+.highlightText {
     text-decoration: underline;
     font-weight: bold;
     color: blue;
-  }
-  
-  .text-background {
+}
+
+.text-background {
     background-color: #f18973;
-  }
-  
-  .furniture-image {
+}
+
+.furniture-image {
     background-image: url("../images/furniture.jpg");
-  }
-  
-  .cupcake-image {
+}
+
+.cupcake-image {
     background-image: url("../images/cupcake.jpg");
-  }
-  
-  .panda-image {
+}
+
+.panda-image {
     background-image: url("../images/panda.jpg");
-  }
-  
-  .fruit-image{
+}
+
+.fruit-image {
     background-image: url("../images/fruit.jpg");
-  }
+}
+
+.hide {
+    display: none;
+}
