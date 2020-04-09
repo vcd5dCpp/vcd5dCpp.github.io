@@ -7,10 +7,6 @@ body {
     padding-bottom: 120px;
 }
 
-/* a {
-    text-decoration: underline !important;
-} */
-
 .hover-state:hover {
     color: white;
     background-color: blue !important;
