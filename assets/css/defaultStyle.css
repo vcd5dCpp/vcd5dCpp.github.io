@@ -1,23 +1,43 @@
-#firstbox {
-    width: 200px;
-    height: 200px;
-    background: #D1ECFF;
-    border: dashed;
-    padding: 5px;
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    font-family: "Roboto Slab", sans-serif;
+    padding: 10px;
+    padding-bottom: 120px;
 }
 
-#secondbox {
-    width: 300px;
-    height: 200px;
-    background: pink;
-    border: ridge;
-    padding: 10px;
-    margin-top: 20px;
-    
-}
+/* a {
+    text-decoration: underline !important;
+} */
 
 .hover-state:hover {
     color: white;
-    background-color: blue;
-    border: 2px solid aqua;
+    background-color: blue !important;
+    border: 2px solid red !important;
+}
+
+
+a.linkStyle:visited {
+    color: orchid;
+}
+
+a.linkStyle:hover {
+    color: #eaff29;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: palegreen;
+}
+
+footer {
+    padding:40px;
+    background: #34af95;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    color:white;
 }

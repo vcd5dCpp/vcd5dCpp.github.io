@@ -12,15 +12,6 @@ h4 {
     font-family: Roboto, sans-serif;
 }
 
-body {
-    font-size: 24px;
-    line-height: 32px;
-    color: #333;
-    font-family: "Roboto Slab", sans-serif;
-    padding: 10px;
-    padding-bottom: 150px;
-}
-
 section {
     margin-bottom: 20px;
     clear: both;
@@ -65,14 +56,4 @@ section {
     background: #666;
     height: 400px;
     color: white;
-}
-
-footer {
-    padding: 10px;
-    background: #ccc;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: 150px;
-    left: 0;
 }
