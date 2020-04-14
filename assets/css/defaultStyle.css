@@ -9,8 +9,8 @@ body {
 
 .hover-state:hover {
     color: white;
-    background-color: blue !important;
-    border: 2px solid red !important;
+    background-color: blue;
+    border: 2px solid red;
 }
 
 
@@ -42,32 +42,4 @@ footer {
     height: 200px;
     background-color: lightgrey;
     margin: 20px 0;
-}
-
-.height100 {
-    height: 100px;
-    background-color: lightpink;
-    margin: 20px 0;
-}
-
-.height200 div {
-    height: 50px;
-    background-color: lightskyblue;
-}
-
-.container-fluid .height100 div {
-    height: 50px;
-    background-color: lightgreen;
-    border: 1px solid gray;
-}
-
-.flex-display {
-    display: flex;
-    background-color: lightsalmon;
-    height:150px;
-    padding: 0 20px;
-}
-
-.flex-display p {
-    margin: 0;
 }

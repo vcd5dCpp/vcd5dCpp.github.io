@@ -38,12 +38,14 @@ body {
     margin-top: 20px;
 }
 
+
+/* pseudo class exercise */
 a.tesla-link {
     color: green;
     font-size: 30px;
     font-weight: bold;
     margin: 50px;
-    text-decoration: underline;
+
 }
 
 a.tesla-link:visited {
@@ -54,12 +56,10 @@ a.tesla-link:visited {
 a.tesla-link:hover {
     background-color: green;
     color: white;
-    text-decoration: none;
 }
 
 a.tesla-link:active {
     background-color: red;
     color: white;
-    text-decoration: none;
     border: solid 1px green;
 }

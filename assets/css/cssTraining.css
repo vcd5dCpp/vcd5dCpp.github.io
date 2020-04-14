@@ -122,3 +122,32 @@ div.thirdDiv {
     background-color: blue;
 }
 
+/* BS GRID + ALIGMENT EXERCISE */
+.height100 {
+    height: 100px;
+    background-color: lightpink;
+    margin: 20px 0;
+}
+
+.height200 div {
+    height: 50px;
+    background-color: lightskyblue;
+}
+
+.container-fluid .height100 div {
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid gray;
+}
+
+.flex-display {
+    display: flex;
+    background-color: lightsalmon;
+    height:150px;
+    padding: 0 20px;
+}
+
+.flex-display p {
+    margin: 0;
+}
+
