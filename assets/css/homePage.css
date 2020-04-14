@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    background-image: url("../images/huskies.jpg");
+    /* background-image: url("../images/huskies.jpg"); */
     background-size: cover;
 }
 
@@ -36,4 +36,30 @@ body {
     background-color: pink;
     padding: 10px;
     margin-top: 20px;
+}
+
+a.tesla-link {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+    text-decoration: underline;
+}
+
+a.tesla-link:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+a.tesla-link:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+a.tesla-link:active {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: solid 1px green;
 }
