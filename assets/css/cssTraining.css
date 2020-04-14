@@ -104,7 +104,7 @@ h5 {
 div#goToPage {
     text-align: center;
     padding: 20px 0;
-    height:100px;
+    height: 100px;
 }
 
 div.firstDiv {
@@ -122,32 +122,78 @@ div.thirdDiv {
     background-color: blue;
 }
 
+div.fourthDiv {
+    height: 200px;
+    background-color: red;
+}
+
 /* BS GRID + ALIGMENT EXERCISE */
+.gridExercise {
+    background-color: lightseagreen;
+    margin: 30px 0;
+}
+
+.gridExercise p {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.gridExercise h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 3px dotted  black;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.pChildTarget  {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+.pChildTarget p {
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
 .height100 {
     height: 100px;
     background-color: lightpink;
     margin: 20px 0;
 }
 
-.height200 div {
-    height: 50px;
-    background-color: lightskyblue;
-}
-
-.container-fluid .height100 div {
+.height100 div {
     height: 50px;
     background-color: lightgreen;
     border: 1px solid gray;
 }
 
+/* FELEX DISPLAY AND ITEMS ALIGN */
 .flex-display {
     display: flex;
     background-color: lightsalmon;
-    height:150px;
-    padding: 0 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .flex-display p {
     margin: 0;
+    text-align: center;
 }
-

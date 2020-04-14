@@ -45,7 +45,7 @@ a.tesla-link {
     font-size: 30px;
     font-weight: bold;
     margin: 50px;
-
+    text-decoration: underline;
 }
 
 a.tesla-link:visited {
@@ -56,10 +56,11 @@ a.tesla-link:visited {
 a.tesla-link:hover {
     background-color: green;
     color: white;
+    text-decoration: none;
 }
 
 a.tesla-link:active {
     background-color: red;
     color: white;
-    border: solid 1px green;
+    border: solid 5px green;
 }
