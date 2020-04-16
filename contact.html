@@ -7,18 +7,50 @@
     <title>Future Portfolio Page</title>
     <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
     <!-- bootstrap stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-    <a href="index.html">
-        <h1>Go back to home page</h1>
-    </a>
+    <!-- BS navbar -->
+    <nav class="navbar navbar-expand-lg customNavBg">
+        <a class="navbar-brand" href="index.html"><b>VCD 5D</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cssTraining.html">Css Traning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown09">
+                        <a class="dropdown-item" href="mailto: tam@yahoo.com">Email</a>
+                        <a class="dropdown-item" href="https://github.com/vcd5dCpp" target="_blank">Github page</a>
+                        <a class="dropdown-item" href="https://vcd5dCpp.github.io" target="_blank">VCD 5d website</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </nav>
 
     <!-- fixed footer -->
     <a href="index.html">
         <footer>
-            <p>This is sticky  footer</p>
+            <p>This is sticky footer</p>
         </footer>
     </a>
 
