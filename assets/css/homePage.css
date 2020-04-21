@@ -68,6 +68,19 @@ a.tesla-link:active {
     letter-spacing: 2px;
 }
 
+.biotTxt p:nth-child(2) span {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.biotTxt p:nth-child(2) span:first-child {
+    color: orange;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 /* project gallery section */
 .projectGallerySection{
     padding: 30px 0;
@@ -101,4 +114,14 @@ a.btn.projectCardBtn:hover {
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 3px;
+}
+
+/* Project Carousels */
+.customProjectCarousel a span:first-child i {
+    color: #34af95;
+    font-size: 40px;
+}
+
+.customProjectCarousel a span:first-child i:hover {
+    color: orange;
 }

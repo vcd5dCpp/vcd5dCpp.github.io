@@ -26,20 +26,31 @@ footer {
     background-color: #34af95!important;
 }
 
+.customNavBg span.navbar-toggler-icon > i.fas.fa-bars {
+    color:white;
+    font-size: 30px;
+}
+
 .customNavBg > a.navbar-brand:hover {
     color: white
 }
 
-.customNavBg li {
+.customNavBg > li {
     margin-right: 20px;
 }
+
+/* FontAwesome hamburger icon styling */
+/* .customNavBg .navbar-toggler-icon > i.fa-bars {
+    color: white;
+    font-size: 30px;
+} */
 
 .customNavBg li.nav-item.active > a {
     color: orange;
     font-weight: bold;
 }
 
-.customNavBg a {
+.customNavBg  a {
     color: white;
 }
 
