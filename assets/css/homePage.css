@@ -116,12 +116,40 @@ a.btn.projectCardBtn:hover {
     letter-spacing: 3px;
 }
 
+/* project modal */
+.customProjectModal button.close {
+    opacity: 1;
+}
+
+.customProjectModal button.close > span {
+    color: orange;
+}
+
+.customProjectModal button.close:hover {
+    transform: scale(1.5);
+}
+
+.customProjectModal button.close > span:hover {
+    color: #34af95;
+}
+
 /* Project Carousels */
 .customProjectCarousel a span:first-child i {
     color: #34af95;
     font-size: 40px;
 }
 
+.customProjectCarousel a.carousel-control-prev,
+.customProjectCarousel a.carousel-control-next
+{
+    opacity: 1;
+} 
+
 .customProjectCarousel a span:first-child i:hover {
     color: orange;
 }
+
+.customProjectCarousel div.carousel-inner img {
+   height: 350px;
+}
+
