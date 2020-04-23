@@ -153,3 +153,19 @@ a.btn.projectCardBtn:hover {
    height: 350px;
 }
 
+.customProjectCarousel > ol li {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    opacity: 1
+}
+
+.customProjectCarousel > ol li:hover {
+    background-color: #34af95;
+    opacity: 1
+}
+
+.customProjectCarousel > ol  li.active {
+    background-color: orange;
+}
+

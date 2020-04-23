@@ -16,7 +16,7 @@
 
 </head>
 
-<body id="topPage" data-spy="scroll" data-offset="50" data-target="topPage">
+<body id="topPage" data-spy="scroll" data-offset="0" data-target="topPage">
     <!-- BS navbar -->
     <nav class="navbar navbar-expand-lg customNavBg">
         <a class="navbar-brand" href="index.html"><b>VCD 5D</b></a>
@@ -121,7 +121,8 @@
                         </div>
                         <div class="modal-body">
                             <!-- Carousels -->
-                            <div id="carouselExampleIndicators" class="carousel slide customProjectCarousel" data-ride="carousel">
+                            <div id="carouselExampleIndicators" class="carousel slide customProjectCarousel"
+                                data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -275,6 +276,8 @@
                 </a>
             </div>
         </div>
+
+
     </div>
     <!-- fixed footer -->
     <a href="index.html">
@@ -295,32 +298,21 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-
-
     <script>
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
 
             $("a.toTop").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
-                    // Prevent default anchor click behavior
                     event.preventDefault();
-
-                    // Store hash
                     var hash = this.hash;
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 800, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
                         window.location.hash = hash;
                     });
-                } // End if
+                }
             });
         });
     </script>
