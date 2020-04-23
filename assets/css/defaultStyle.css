@@ -100,3 +100,16 @@ footer {
 .customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
     color: #34af95
 }
+
+
+/* ==== media queries ===== */
+@media only screen and (max-width: 768px) {
+    .customNavBg li > a:hover {
+        transform: scale(1)
+    }
+
+    .circleImage {
+        border-color: #34af95;
+    }
+}
+

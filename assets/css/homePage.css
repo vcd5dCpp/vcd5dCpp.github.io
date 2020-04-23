@@ -169,3 +169,12 @@ a.btn.projectCardBtn:hover {
     background-color: orange;
 }
 
+
+/* =======   Media Queries ======= */
+@media only screen and (max-width: 600px) {
+    .sectionTitle > h2 {
+        color: orange!important;
+    }
+}
+
+
