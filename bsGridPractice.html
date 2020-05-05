@@ -177,6 +177,17 @@
         </div>
     </section>
 
+    <!-- Tool tip and scroll spy -->
+    <div class="row customToolTip">
+        <div class="col-12">
+            <a class="btn toTop" data-toggle="tooltip" data-placement="right" title="Scroll to Top" href="#topPage">
+                <span>
+                    <i class="fas fa-chevron-circle-up"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+
     <!-- boostrap script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -189,8 +200,10 @@
     <!-- custom script for tool tip and smooth scroll -->
     <script>
         $(document).ready(function () {
-
+            // tool tip
+            $('[data-toggle="tooltip"]').tooltip();
             // smooth scroll for scroll spy
+            
             $("a.toTop").on('click', function (event) {
                 if (this.hash !== "") {
                     event.preventDefault();

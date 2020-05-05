@@ -45,6 +45,7 @@
 /* =========== end note section =========== */
 .endNoteSection {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .endNoteSection p:first-of-type {
@@ -71,7 +72,6 @@
     border: 1px solid transparent;
     color: white
 }
-
 
 
 /* === Media Queries ==== */
