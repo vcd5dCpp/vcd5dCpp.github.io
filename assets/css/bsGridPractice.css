@@ -3,6 +3,9 @@
     background-image: url("../images/beach.jpg");
     padding: 50px 0 100px 50px;
     margin: 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
 }
 
 
@@ -14,10 +17,15 @@
     color: white;
 }
 
+.contactSection div.leftSide p {
+    word-wrap: break-word;
+}
+
+
 
 /* leftSide */
 .leftSide .mapImage {
-    background-image: url("../images/furniture.jpg") ;
+    background-image: url("../images/furniture.jpg");
     height: 250px;
 }
 
@@ -30,7 +38,8 @@
 }
 
 /* righSide */
-.rightSide img {
+.rightSide img,
+.flexAligment img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -38,7 +47,45 @@
 }
 
 .rightSide div.flexAligment {
-    /* some code here to make the social media block vertical align at the bottom  */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+/* ==== social Media contact section */
+.socialMediaSection {
+    margin: 50px;
+}
+
+.socialMediaSection div.flexAligment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMediaSection h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* ==== video display section ===*/
+.video-section {
+    margin: 50px 0;
+}
+
+.video-section div.row {
+    align-items: center;
+}
+
+.video-section h2{
+    margin: 20px 0;
+}
+
+.video-section video,
+.video-section img,
+.video-section iframe {
+    height: auto;
+    width: 100%;
 }
 
 
@@ -74,9 +121,45 @@
 }
 
 
+/* ==== carousel multi items slider ===== */
+#muliCarousel {
+    margin: 20px 0;
+}
+
+#muliCarousel .carousel-inner .carousel-item.active,
+#muliCarousel .carousel-inner .carousel-item-next,
+#muliCarousel .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+#muliCarousel .carousel-inner .carousel-item-right.active,
+#muliCarousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%) !important;
+}
+
+#muliCarousel .carousel-inner .carousel-item-left.active,
+#muliCarousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%) !important;
+}
+
+#muliCarousel .carousel-inner .carousel-item-right,
+#muliCarousel .carousel-inner .carousel-item-left {
+    transform: translateX(0)!important;
+}
+
+
+/* === custom tool tip ==== */
+.tooltip-inner {
+    background-color: #34af95 !important;
+}
+
+.bs-tooltip-right .arrow::before {
+    border-right-color: #34af95 !important;
+}
+
 /* === Media Queries ==== */
 @media only screen and (max-width: 768px) {
-    .contactSection h3{
+    .contactSection h3 {
         display: none;
     }
 
@@ -92,6 +175,21 @@
 
     .rightSide div.col-4 {
         text-align: center;
+    }
+
+    #muliCarousel .carousel-inner .carousel-item-right.active,
+    #muliCarousel .carousel-inner .carousel-item-next {
+        transform: translateX(50%) !important;
+    }
+
+    #muliCarousel .carousel-inner .carousel-item-left.active,
+    #muliCarousel .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%) !important
+    }
+
+    #muliCarousel .carousel-inner .carousel-item-right,
+    #muliCarousel .carousel-inner .carousel-item-left {
+        transform: translateX(0) !important;
     }
 
 }

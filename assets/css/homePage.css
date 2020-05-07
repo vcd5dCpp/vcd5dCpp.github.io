@@ -169,6 +169,16 @@ a.btn.projectCardBtn:hover {
     background-color: orange;
 }
 
+/* ===tool tip  customize ==== */ 
+
+.tooltip-inner {
+    background-color: orange!important;
+ }
+
+.bs-tooltip-right .arrow:before {
+    border-right-color: orange !important;
+}
+    
 
 /* =======   Media Queries ======= */
 @media only screen and (max-width: 600px) {
