@@ -126,6 +126,10 @@
     margin: 20px 0;
 }
 
+#muliCarousel .carousel-inner .carousel-item img {
+max-height: 200px;
+}
+
 #muliCarousel .carousel-inner .carousel-item.active,
 #muliCarousel .carousel-inner .carousel-item-next,
 #muliCarousel .carousel-inner .carousel-item-prev {

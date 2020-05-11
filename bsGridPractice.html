@@ -285,11 +285,12 @@
                 }
             });
 
-            // multi items carousel 
+            // multi items carousel auto slide timer
             $('#muliCarousel.carousel').carousel({
-                interval: false
+                interval: 5000
             })
-
+            
+            // multi items carousel slide one at a time
             $('#muliCarousel .carousel-item').each(function () {
                 var next = $(this).next();
                 if (!next.length) {
