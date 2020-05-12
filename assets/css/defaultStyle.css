@@ -39,11 +39,6 @@ footer {
     margin-right: 20px;
 }
 
-/* FontAwesome hamburger icon styling */
-/* .customNavBg .navbar-toggler-icon > i.fa-bars {
-    color: white;
-    font-size: 30px;
-} */
 
 .customNavBg li.nav-item.active > a {
     color: orange;
