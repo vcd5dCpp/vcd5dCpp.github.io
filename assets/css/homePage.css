@@ -1,0 +1,34 @@
+body {
+    background-image: url(../images/patternsBG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: orange
+}
+p {
+    color: blue;
+}
+h3.pinkText {
+    color: green;
+    text-decoration: underline;
+}
+#pinkText {
+    color: hotpink;
+}
+#firstBox {
+    width: 200px;
+    height: 100px;
+    background-color: indianred;
+    padding: 20px;
+    margin: 50px;
+    border: 10px green dotted;
+}
+
+.secondBox{
+    width: 500px;
+    height: 500px;
+    background-color: lawngreen;
+}
