@@ -1,7 +1,8 @@
 #firstDiv {
     width: 100%;
     height: 300px;
-    background-image: url('../images/camping.jpeg');
+    background-image: url('../images/camping.jpg');
+    background-size: contain;
 }
 
 #secondDiv {
@@ -28,7 +29,6 @@
     width: 100%;
     height: 300px;
     background-image: url('../images/wave.jpg');
-    background-size: contain;
 }
 
 #fourthDiv h1 {
