@@ -137,7 +137,7 @@ div.flexContainer {
     align-items: center;
 }
 
-div.flexContainer > div {
+div.flexContainer  div {
     background-color: gray;
     width: 200px;
     height: 200px;
@@ -146,4 +146,16 @@ div.flexContainer > div {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div.flexContainer :first-child {
+    background-color: red;
+}
+
+div.flexContainer :nth-child(3) {
+    background-color: blueviolet;
+}
+
+div.flexContainer > :nth-child(4) {
+    background-color: green;
 }
