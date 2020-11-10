@@ -1,14 +1,6 @@
-.veggieText {
-    background-color: green;
-    color: white;
-    padding: 20px
-}
 
-.riceText {
-    background-color: brown;
-    color: white;
-    padding: 10px 20px;
-}
+
+/* bear bento */
 
 .container-fluid.bearBentoBox {
     padding-left: 0;
@@ -23,4 +15,50 @@
 .bearBentoBox .col-md-8 p {
     background: lightsalmon;
     color: white
+}
+
+.saladRow {
+    background-color: darkolivegreen;
+    padding: 30px
+}
+.saladRow p {
+ padding: 5px;
+ color: blue!important;
+}
+
+.regBentox {
+    margin-top: 20px;
+}
+
+/* regular bento */
+
+.regBentox > .mainDish{
+    background-color: darkturquoise;
+    height: 300px;
+    align-items: center;
+}
+
+.regBentox > .mainDish div:first-child p {
+    background-color: yellow;
+    text-align: center;
+}
+
+.regBentox > .mainDish div:last-child p {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.regBentox .deseartRow {
+    background-color: palevioletred;
+    align-items: center;
+    height: 200px;
+}
+
+.regBentox .deseartRow  p {
+    background-color: powderblue;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    display: flex;
 }
