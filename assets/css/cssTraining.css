@@ -159,3 +159,25 @@ div.flexContainer :nth-child(3) {
 div.flexContainer > :nth-child(4) {
     background-color: green;
 }
+
+a.stateStyling {
+    color: green;
+    text-decoration: underline;
+}
+
+a.stateStyling:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+a.stateStyling:hover  {
+background-color: green;
+color: white;
+}
+
+a.stateStyling:active {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 5px solid green;
+}
