@@ -1,4 +1,18 @@
-.topRow img.profileAvata {
-    width: 200px;
-    height: auto
+.topRow {
+    padding: 20px;
+    align-items: center;
 }
+
+.topRow div.col-sm-9 {
+padding-left: 50px;
+}
+
+.topRow img.profileAvata {
+    width: 100%;
+    height: auto;
+}
+
+.contactRow {
+    margin-top: 50px;
+}
+
