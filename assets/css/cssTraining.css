@@ -47,7 +47,13 @@ body{
 }
 
 
-span {
+/* span {
+    color:white;
+    background-color: green;
+    font-size: 40px;
+} */
+
+#firstDiv span {
     color:white;
     background-color: green;
     font-size: 40px;
