@@ -206,3 +206,15 @@ div.nameTitle h5 {
 .techSkill div.progress > div.progress-bar {
     background-color: #34af95;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .myResume {
+        border-width: 0px;
+    }
+
+    .techSkill i.fa-circle {
+        letter-spacing: 0px;
+    }
+
+}
