@@ -208,13 +208,29 @@ div.nameTitle h5 {
 }
 
 /* Media Queries */
+@media (max-width: 576px) {
+    .techSkill div.progress {
+        transform: translateY(-12px)
+    }
+
+}
+
 @media (max-width: 768px) {
     .myResume {
         border-width: 0px;
     }
 
+    .bottomRow .techSkill div.divider {
+        transform: translateX(-35px)
+    }
+
+    div.nameTitle h1 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 992px) {
     .techSkill i.fa-circle {
         letter-spacing: 0px;
     }
-
 }
