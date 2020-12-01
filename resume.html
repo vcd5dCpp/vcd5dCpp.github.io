@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume</title>
 
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="assets/css/resume.css">
     <link rel="stylesheet" type="text/css" href="assets/css/sharedStyle.css">
@@ -20,26 +26,28 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light customNav">
-        <a class="navbar-brand" href="index.html">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <!-- BS navigation bar -->
+    <nav class="navbar navbar-expand-lg customNav">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/myLogo.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mycustomNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cssTraining.html">CSS Training</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="boostrapExercise.html">Bootstrap Exercise</a>
-                </li>
+        <div class="collapse navbar-collapse" id="mycustomNav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Resume</a>
+                    <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
                 </li>
             </ul>
         </div>
@@ -85,9 +93,9 @@
                                 <a href="mailto: tamle@cpp.edu">tamle@cpp.edu</a>
                             </div>
                         </div>
-              
+
                     </div>
-                    
+
                     <div class="col-md-4 socialMediaContact">
                         <p>
                             <i class="fab fa-linkedin"></i>
@@ -124,15 +132,15 @@
                     <div class="divider"></div>
                     <div class='row'>
                         <div class="col-md-4">
-                            <img src="assets/images/pencil.png"  class="img-fluid">
+                            <img src="assets/images/pencil.png" class="img-fluid">
                             <p>Drawing</p>
                         </div>
                         <div class="col-md-4">
-                            <img src="assets/images/camera.png"  class="img-fluid">
+                            <img src="assets/images/camera.png" class="img-fluid">
                             <p>Photography</p>
                         </div>
                         <div class="col-md-4">
-                            <img src="assets/images/news.png"  class="img-fluid">
+                            <img src="assets/images/news.png" class="img-fluid">
                             <p>Journalism</p>
                         </div>
 
@@ -144,12 +152,25 @@
                     <div class="divider"></div>
                     <h5>Mobile App Design</h5>
                     <ul>
-                        <li><p>User research inlude Marketing Research, competitive analysis and Business value proposition</p></li>
-                        <li><p>Deisgn Persona & customer journey map</p></li>
-                        <li><p>Create Architecture Diagram</p></li>
-                        <li><p>Create Userflow</p></li>
-                        <li><p>Create Design System</p></li>
-                        <li><p>Create interactive prototype with Adobe XD</p></li>
+                        <li>
+                            <p>User research inlude Marketing Research, competitive analysis and Business value
+                                proposition</p>
+                        </li>
+                        <li>
+                            <p>Deisgn Persona & customer journey map</p>
+                        </li>
+                        <li>
+                            <p>Create Architecture Diagram</p>
+                        </li>
+                        <li>
+                            <p>Create Userflow</p>
+                        </li>
+                        <li>
+                            <p>Create Design System</p>
+                        </li>
+                        <li>
+                            <p>Create interactive prototype with Adobe XD</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -165,8 +186,12 @@
                         </h5>
                         <h6>ThoughtBot</h6>
                         <ul>
-                            <li><p>Creating amazing UX/UI experiences for clients around the world.</p></li>
-                            <li><p>Design and create interactive prototype for mobile app</p></li>
+                            <li>
+                                <p>Creating amazing UX/UI experiences for clients around the world.</p>
+                            </li>
+                            <li>
+                                <p>Design and create interactive prototype for mobile app</p>
+                            </li>
                         </ul>
                     </div>
                     <hr>
@@ -176,8 +201,12 @@
                         </h5>
                         <h6>Apple Store</h6>
                         <ul>
-                            <li><p>Fixed a variety of apple device issues for customers.</p></li>
-                            <li><p>Provide customer services</p></li>
+                            <li>
+                                <p>Fixed a variety of apple device issues for customers.</p>
+                            </li>
+                            <li>
+                                <p>Provide customer services</p>
+                            </li>
                         </ul>
                     </div>
                     <hr>
@@ -187,8 +216,12 @@
                         </h5>
                         <h6>Starbucks</h6>
                         <ul>
-                            <li><p>Make some awesome lattes</p></li>
-                            <li><p>Cashier</p></li>
+                            <li>
+                                <p>Make some awesome lattes</p>
+                            </li>
+                            <li>
+                                <p>Cashier</p>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -211,7 +244,7 @@
             <div class="col-md-6 softSkill">
                 <h3>Soft Skills</h3>
                 <div class="divider"></div>
-                
+
                 <div class="row">
                     <div class="col-6">
                         <ul>
@@ -300,7 +333,8 @@
                     </div>
                     <div class="col-sm-8">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -311,7 +345,8 @@
                     </div>
                     <div class="col-sm-8">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 55%"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 55%">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -322,19 +357,20 @@
                     </div>
                     <div class="col-sm-8">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%">
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- boostrap script -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
