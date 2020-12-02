@@ -29,7 +29,7 @@
     margin-bottom: 20px;
 }
 
-.projectCard>img {
+.projectCard > img {
     width: 100%;
     object-fit: cover;
     height: 250px;
@@ -159,7 +159,7 @@ a.viewProjectBtn:hover {
     margin-bottom: 20px;
 }
 
-/* ==== carousel multi items slider ===== */
+/* ==== multi items carousel slider ===== */
 #muliCarousel .carousel-inner .carousel-item img {
     height: 250px;
     object-fit: cover;
@@ -202,8 +202,8 @@ a.viewProjectBtn:hover {
 }
 
 .footer a:focus, .footer a span > i:focus {
-outline: none;
-box-shadow: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .footer a span > i {
