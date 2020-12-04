@@ -29,7 +29,7 @@
     margin-bottom: 20px;
 }
 
-.projectCard > img {
+.projectCard>img {
     width: 100%;
     object-fit: cover;
     height: 250px;
@@ -91,7 +91,7 @@ a.viewProjectBtn:hover {
 
 
 /* carousel */
-.customCarousel .carousel-item > img {
+.customCarousel .carousel-item>img {
     width: 100%;
     object-fit: cover;
     height: 600px;
@@ -131,7 +131,7 @@ a.viewProjectBtn:hover {
     opacity: 1;
 }
 
-.customCarousel a span:first-child i{
+.customCarousel a span:first-child i {
     color: orange;
     font-size: 30px;
 }
@@ -201,12 +201,13 @@ a.viewProjectBtn:hover {
     text-align: center;
 }
 
-.footer a:focus, .footer a span > i:focus {
+.footer a:focus,
+.footer a span>i:focus {
     outline: none;
     box-shadow: none;
 }
 
-.footer a span > i {
+.footer a span>i {
     color: orange;
     font-size: 50px;
     margin-bottom: 20px;
@@ -224,6 +225,7 @@ a.viewProjectBtn:hover {
 
 /* === Media Queries ==== */
 @media (max-width: 576px) {
+
     #muliCarousel .carousel-inner .carousel-item-right.active,
     #muliCarousel .carousel-inner .carousel-item-next {
         transform: translateX(50%) !important;
@@ -233,16 +235,27 @@ a.viewProjectBtn:hover {
     #muliCarousel .carousel-inner .carousel-item-prev {
         transform: translateX(-50%) !important
     }
+
+    #muliCarousel .carousel-inner .carousel-item-right,
+    #muliCarousel .carousel-inner .carousel-item-left {
+        transform: translateX(0) !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+
     #muliCarousel .carousel-inner .carousel-item-right.active,
     #muliCarousel .carousel-inner .carousel-item-next {
-        transform: translateX(33%) !important;
+        transform: translateX(33.33%) !important;
     }
 
     #muliCarousel .carousel-inner .carousel-item-left.active,
     #muliCarousel .carousel-inner .carousel-item-prev {
-        transform: translateX(-33%) !important
+        transform: translateX(-33.33%) !important
+    }
+
+    #muliCarousel .carousel-inner .carousel-item-right,
+    #muliCarousel .carousel-inner .carousel-item-left {
+        transform: translateX(0) !important;
     }
 }
