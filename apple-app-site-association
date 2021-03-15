@@ -1,0 +1,9 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [{
+      "appID": "QC7QRG96FJ.com.tomferry.hubgo",
+      "paths": [ "*", "/search/*"]
+    }]
+  }
+}
