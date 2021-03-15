@@ -1,310 +1,128 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CSS training page</title>
-    <link rel="stylesheet" href="assets/css/cssTraining.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>css training</title>
+    <!-- local stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/cssTraining.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/sharedStyle.css"/>
+
     <!-- bootstrap stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 
+
 <body>
-    <!-- BS navbar -->
-    <nav class="navbar navbar-expand-md customNavBg">
-        <a class="navbar-brand" href="index.html"><b>VCD 5D</b></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
-            </span>
+    <nav class="navbar navbar-expand-lg navbar-light customNav">
+        <a class="navbar-brand" href="index.html">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample09">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="cssTraining.html">Css Traning</a>
+                    <a class="nav-link" href="#">CSS Training</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
+                    <a class="nav-link" href="boostrapExercise.html">Bootstrap Exercise</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="bsGridPractice.html">BS Grid Practice</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Contact</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown09">
-                        <a class="dropdown-item" href="mailto: tam@yahoo.com">Email</a>
-                        <a class="dropdown-item" href="https://github.com/vcd5dCpp" target="_blank">Github page</a>
-                        <a class="dropdown-item" href="https://vcd5dCpp.github.io" target="_blank">VCD 5d website</a>
-                    </div>
+                    <a class="nav-link" href="resume.html">Resume</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-            </form>
         </div>
     </nav>
 
-    <!-- CSS background images and multi-classes -->
-    <div class="section furniture-image">
-        <h5 class="text-background">This is h5 tag - see the different?</h5>
+
+    <div id="firstDiv">
+        <span><a class="visitedLink" href="index.html">go to index page</a></span>
     </div>
 
-    <div class="section panda-image">
-        <span class="text-background">This is panda </span>
+    <div id="secondDiv">
+        <span><a href="https://www.google.com">huskies image</span></a>
     </div>
 
-    <div class="section hide">
-        <span class="text-background">This is blank div box with no image backgroud</span>
+    <div id="thirdDiv">
+        <b><span>macarons image</span></b>
     </div>
 
-    <div class="section different cupcake-image">
-        <span class="text-background">This is the cupcake</span>
-    </div>
-
-    <div class="section different fruit-image hover-state">
-        <span class="text-background">This is the fruit </span>
-    </div>
-
-    <h5 class="highightText">WARRIOR MAGE</h5>
-
-    <h5 class="hover-state">ROGUE WARRIOR</h5>
-
-    <h5 class="bigger-size text-background">MAGE ROGUE</h5>
-
-    <h5 class="bigger-size">ROGUE <span class="highightText">WARRIOR</span> MAGE</h5>
-
-    <h2>h2 to by itself no under any parent</h2>
-
-    <div class="row">
-        <div id="goToPage" class="col-sm col-md-4 firstDiv align-middle">
-            <a class="linkStyle" href="index.html">
-                <p>go back homepage</p>
-            </a>
-        </div>
-
-        <div id="goToPage" class="col-sm-9 col-md-4 secondDiv">
-            <a class="linkStyle" href="contact.html">
-                <p>go to contact page</p>
-            </a>
-        </div>
-
-        <div id="goToPage" class="col-sm col-md-4 thirdDiv">
-            <a class="linkStyle" href="floatPositionActivity.html">
-                <p>go to float position page</p>
-            </a>
-        </div>
+    <div id="fourthDiv">
+        <i>
+            <h1>wave images</h1>
+        </i>
+        <br>
+        <br>
+        <br>
+        <p>let go to the beack</p>
     </div>
 
 
+    <h1>hello im not being targeted/selected with CSS</h1>
 
-    <!-- positioning demo -->
-    <div class="wrapper">
-        <section class="container">
-            <h1>Hello Class!</h1>
-            <p>
-                Bacon ipsum dolor amet capicola pastrami doner short ribs corned beef drumstick leberkas. Porchetta
-                alcatra strip steak cow brisket. Drumstick chuck meatloaf tenderloin, turkey frankfurter turducken
-                leberkas fatback bacon capicola pork. Short loin ham prosciutto beef ribs, pancetta pork picanha cow
-                doner strip steak turducken leberkas hamburger shoulder frankfurter.
-                Shankle cupim t-bone tenderloin, doner cow venison pancetta. Cupim hamburger shoulder pork loin boudin
-                leberkas filet mignon ball tip spare ribs ground round tenderloin. Fatback bacon pork short loin ham.
-                Ham hock ground round alcatra capicola beef ribs turkey cupim, salami brisket pastrami. Spare ribs
-                leberkas swine ball tip short ribs pancetta chuck meatball. Swine alcatra ground round burgdoggen tongue
-                tri-tip buffalo strip steak boudin pork loin shank picanha frankfurter chicken.
-            </p>
-        </section>
-        <section class="container">
-            <div class="relative">
-                <p>This is positioned relatively.</p>
-                <div class="absolute">
-                    <p>This is positioned absolutely.</p>
-                </div>
-            </div>
-        </section>
-        <section class="container">
-            <p>
-                Meatball ham salami pastrami, landjaeger jowl burgdoggen tenderloin pig pork loin jerky beef ribs.
-                Tri-tip beef sirloin, pork salami doner ribeye pork belly rump jerky prosciutto short ribs short loin
-                venison kevin. Fatback pig shank, pork shoulder andouille salami buffalo frankfurter beef doner
-                turducken kevin porchetta cow. Short ribs filet mignon alcatra tail bacon turducken tri-tip ball tip.
-                Pork belly beef cow sausage kielbasa sirloin corned beef pork chop jerky doner burgdoggen kevin buffalo.
-                Pork chop pancetta rump capicola meatloaf pork belly landjaeger. Sausage brisket chicken, buffalo shank
-                hamburger porchetta tongue venison short ribs. Rump chicken capicola t-bone salami cow. Short loin strip
-                steak ball tip, boudin chuck beef ribs pancetta drumstick bacon. Pork chop bresaola fatback tri-tip.
-                Buffalo hamburger doner flank. Pork pork belly corned beef spare ribs, jowl tail chuck bresaola ball tip
-                prosciutto ground round kevin leberkas. Shankle leberkas tail shank t-bone hamburger ribeye swine bacon
-                tenderloin pancetta. Picanha ham hock cow, short loin fatback burgdoggen kevin shankle sausage shoulder
-                pork chop turducken tri-tip pastrami ball tip.
-            </p>
-        </section>
+    <section>
+        <div id="sideBar">
+            <ul>
+                <li>This</li>
+                <li>is</li>
+                <li>a</li>
+                <li>sidebar</li>
+            </ul>
+        </div>
+        <div id="mainContent">
+            <h1>Hello</h1>
+            <p class="pinkText">this is our main content</p>
+        </div>
+    </section>
+
+
+    <section>
+        <div id="leftBox">
+            <img width="200" height="200" src="assets/images/camping.jpg" />
+            <h1>awesome image</h1>
+            <p class="pinkText underline textHoverSyle">this is left image</p>
+        </div>
+        <div id="middleBox">
+            <img width="200" height="200" src="assets/images/huskies.jpeg" />
+            <h1 class="underline">awesome image</h1>
+            <p>this is middle image</p>
+        </div>
+        <div id="rightBox">
+            <p>this is some text</p>
+        </div>
+    </section>
+
+    <div class="flexContainer">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <h1>hello</h1>
     </div>
 
-    <!-- BOOTSTRAP GRID -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3 col-sm-1 col-md-4 firstDiv">
-                fisrst collumn
-            </div>
-            <div class="col-4 col-sm-3 col-md-4 secondDiv">
-                second collumn
-            </div>
-            <div class="col-5 col-sm-8 col-md-4 thirdDiv">
-                third collumn
-            </div>
-        </div>
-    </div>
-
-    <!-- bootstrap grid exercise -->
-    <div class="container-fluid gridExercise">
-        <h2>bootstrap grid exercise</h2>
-        <!-- first row -->
-        <p>first row</p>
-        <div class="row">
-            <div class="col-3 firstDiv">first div</div>
-            <div class="col-3 secondDiv">second div</div>
-            <div class="col-3 thirdDiv">third div</div>
-            <div class="col-3 fourthDiv">fourth div</div>
-        </div>
-        <!-- second row -->
-        <p>second row</p>
-        <div class="row">
-            <div class="col-12 col-md-2 col-lg-4 firstDiv pChildTarget">
-                <p>first div</p>
-            </div>
-            <div class="col-12 col-md-7 col-lg-6  secondDiv pChildTarget">
-                <p>second div</p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-2 thirdDiv">
-                <p>third div</p>
-            </div>
-        </div>
-        <!-- third row -->
-        <p>thrid row</p>
-        <div class="row">
-            <div class="col-12 col-md-3 col-lg-5 fourthDiv pChildTarget">
-                <p>div</p>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Bootstrap Vertical aligment -->
-    <div class="container gridExercise">
-        <h2>bootstrap Vertical aligment</h2>
-        <div class="row align-items-start parentTarget">
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-        </div>
-        <div class="row align-items-center parentTarget">
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-        </div>
-        <div class="row align-items-end parentTarget">
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-        </div>
-    </div>
-
-    <!-- BS horizontal alignment -->
-    <div class="container-fluid gridExercise">
-        <h2>BOOTSTRAP HORIZONTAL ALIGMENT</h2>
-        <div class="row justify-content-start height100">
-            <div class="col-4">
-                One of two columns
-            </div>
-            <div class="col-4">
-                One of two columns
-            </div>
-        </div>
-        <div class="row justify-content-center height100">
-            <div class="col-4">
-                One of two columns
-            </div>
-            <div class="col-4">
-                One of two columns
-            </div>
-        </div>
-        <div class="row justify-content-end height100">
-            <div class="col-4">
-                One of two columns
-            </div>
-            <div class="col-4">
-                One of two columns
-            </div>
-        </div>
-        <div class="row justify-content-around height100">
-            <div class="col-4">
-                One of two columns
-            </div>
-            <div class="col-4">
-                One of two columns
-            </div>
-        </div>
-        <div class="row justify-content-between height100">
-            <div class="col-4">
-                One of two columns
-            </div>
-            <div class="col-4">
-                One of two columns
-            </div>
-        </div>
-    </div>
-
-    <!-- flex-display and items align -->
-    <div class="flex-display">
-        <p>FELEX DISPLAY AND ITEMS ALIGN</p>
-        <img src="assets/images/huskies.jpg" width="200" height="auto">
-    </div>
-
-    <!-- fixed footer -->
-    <a href="index.html">
-        <footer>
-            <p>This is sticky footer</p>
-        </footer>
+    <a class="stateStyling" href="https://vcd5dcpp.github.io" target="_blank">
+        Click here to go my github account
     </a>
 
+    <div id="footer">
+        <p>this is footer</p>
+    </div>
 
-    <!-- boostrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    <!-- boostrap script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
     </script>
 </body>
 
